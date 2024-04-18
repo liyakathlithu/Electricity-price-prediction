@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Consumption Prediction</title>
+</head>
+<body style="background-image: url('C:/Users/liyak/Downloads/windmill3.jpg'); background-size: cover;">
+    <center>
+    <h2><u>Electricity Price Prediction</u></h2>
+    <br><br>
+    <form action="/predict" method="post">
+        <label for="Day">Day:</label>
+        <input type="text" id="Day" name="Day"><br><br>
+        
+        <label for="Month">Month:</label>
+        <input type="text" id="Month" name="Month"><br><br>
+        
+        <label for="SystemLoadEA">System Load EA:</label>
+        <input type="text" id="SystemLoadEA" name="SystemLoadEA"><br><br>
+        
+        <label for="SMPEA">SMPEA:</label>
+        <input type="text" id="SMPEA" name="SMPEA"><br><br>
+        
+        <label for="ORKTemperature">ORK Temperature:</label>
+        <input type="text" id="ORKTemperature" name="ORKTemperature"><br><br>
+        
+        <label for="ORKWindspeed">ORK Windspeed:</label>
+        <input type="text" id="ORKWindspeed" name="ORKWindspeed"><br><br>
+        
+        <label for="CO2Intensity">CO2 Intensity:</label>
+        <input type="text" id="CO2Intensity" name="CO2Intensity"><br><br>
+        
+        <label for="ActualWindProduction">Actual Wind Production:</label>
+        <input type="text" id="ActualWindProduction" name="ActualWindProduction"><br><br>
+        
+        <label for="ForecastWindProduction">Forecast Wind Production:</label>
+        <input type="text" id="ForecastWindProduction" name="ForecastWindProduction"><br><br>
+        
+        <label for="SystemLoadEP2">System Load EP2:</label>
+        <input type="text" id="SystemLoadEP2" name="SystemLoadEP2">
+        <br><br>
+        <br><br>
+        <input type="submit" value="Predict">
+    </form>
+</center>
+</body>
+</html>
